@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -20,11 +20,11 @@ requirements:
     - python
     - setuptools
     - toolchain
-    - numpy x.x
+    - numpy 1.11.*
     - six
   run:
     - python
-    - numpy x.x
+    - numpy >=1.11
     - scipy
     - six
     - numexpr
