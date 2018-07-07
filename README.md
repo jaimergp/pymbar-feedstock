@@ -14,14 +14,16 @@ Summary: Python implementation of the multistate Bennett acceptance ratio (MBAR)
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pymbar-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pymbar-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pymbar-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pymbar-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pymbar-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pymbar-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/pymbar-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pymbar-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/pymbar-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pymbar-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/pymbar-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/pymbar-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pymbar/badges/version.svg)](https://anaconda.org/conda-forge/pymbar)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pymbar/badges/downloads.svg)](https://anaconda.org/conda-forge/pymbar)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pymbar-green.svg)](https://anaconda.org/conda-forge/pymbar) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pymbar.svg)](https://anaconda.org/conda-forge/pymbar) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pymbar.svg)](https://anaconda.org/conda-forge/pymbar) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pymbar.svg)](https://anaconda.org/conda-forge/pymbar) |
 
 Installing pymbar
 =================
