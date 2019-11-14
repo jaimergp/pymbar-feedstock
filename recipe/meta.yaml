@@ -1,6 +1,6 @@
 {% set name = "pymbar" %}
-{% set version = "3.0.3" %}
-{% set sha256 = "5e59bb9f3789ae723e85d4483d7d204e39425551f30df8cefc13c6e607af6398" %}
+{% set version = "3.0.4" %}
+{% set sha256 = "f2a42e097c7feee3fbef09a2cb9e968d9e4d102ffad43b737bdfbc2ef2048ff2" %}
 
 package:
   name: {{ name  }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -26,7 +26,7 @@ requirements:
   run:
     - python
     - {{ pin_compatible('numpy') }}
-    - scipy
+    - scipy >=1.0.0
     - six
     - numexpr
 
