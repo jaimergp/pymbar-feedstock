@@ -3,16 +3,16 @@
 {% set sha256 = "a9bdfa37083757fe6ad83211a87aa18d51c04f8d87609752b86165a6e9730b98" %}
 
 package:
-  name: {{ name  }}
+  name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: {{ name}}-{{ version }}.tar.gz
+  fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/choderalab/{{ name }}/archive/{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
