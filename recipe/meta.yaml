@@ -31,13 +31,8 @@ requirements:
     - numexpr
 
 test:
-  requires:
-    - nose
-    - statsmodels
   imports:
     - pymbar
-  commands:
-    - nosetests pymbar --with-doctest --doctest-tests -v -I covariance
 
 about:
   home: http://github.com/choderalab/pymbar
